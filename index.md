@@ -42,7 +42,9 @@ layout: default
 
 ## 启动页面
 
-![start](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/start.jpg)
+[//]: ![start](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/start.jpg)
+
+![start.jpg](https://imgos.cn/2024/08/16/66be33f4288a0.jpg)
 启动页面中可展开面板进行配置更改。按**启动**键即可启动脚本，遮罩窗口也可通过开关进行显示和隐藏的切换。
 配置信息如下：
 *   **触发器间隔**：截屏器的工作间隔，默认为500ms，可根据电脑性能更改，建议在100ms~1000ms之间。
@@ -52,12 +54,14 @@ layout: default
 
 ## 截屏页面
 
-![screenshot](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/screenshot.jpg)
+[//]: ![screenshot](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/screenshot.jpg)
+![screenshot.jpg](https://imgos.cn/2024/08/16/66be33f40d110.jpg)
 截屏页面中显示实时的截屏画面。可在启动页面进行功能的开启或关闭。
 
 ## 测试页面
 
-![test](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/test.jpg)
+[//]: ![test](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/test.jpg)
+![test.jpg](https://imgos.cn/2024/08/16/66be33f429611.jpg)
 测试页面中首先需要选择启动方式。然后进行各种测试。
 功能介绍如下：
 *   **截屏测试**：通过设置偏移和宽高，截取指定区域的游戏画面。同时支持读入配置文件以快速截取目标区域图像。
