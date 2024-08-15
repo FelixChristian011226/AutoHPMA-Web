@@ -56,12 +56,14 @@ layout: default
 
 [//]: ![screenshot](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/screenshot.jpg)
 <img src = "https://imgos.cn/2024/08/16/66be33f40d110.jpg" align = "middle"  width="60%" />
+
 截屏页面中显示实时的截屏画面。可在启动页面进行功能的开启或关闭。
 
 ## 测试页面
 
 [//]: ![test](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/test.jpg)
 <img src = "https://imgos.cn/2024/08/16/66be33f429611.jpg" align = "middle"  width="60%" />
+
 测试页面中首先需要选择启动方式。然后进行各种测试。
 功能介绍如下：
 *   **截屏测试**：通过设置偏移和宽高，截取指定区域的游戏画面。同时支持读入配置文件以快速截取目标区域图像。
