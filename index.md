@@ -2,10 +2,6 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
 > **免责声明**
 >
 > 1.本软件仅为游戏辅助工具，并非改变游戏数据类软件，也不会收集任何用户数据，请仔细阅读并遵守《哈利波特：魔法觉醒》的服务条款。开发者对因滥用此软件而导致的任何不良后果概不负责。
