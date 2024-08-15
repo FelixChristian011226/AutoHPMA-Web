@@ -6,118 +6,84 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
+> **免责声明**
 >
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+> 1.本软件仅为游戏辅助工具，并非改变游戏数据类软件，也不会收集任何用户数据，请仔细阅读并遵守《哈利波特：魔法觉醒》的服务条款。开发者对因滥用此软件而导致的任何不良后果概不负责。
+> 2.软件保证不含任何病毒，木马，等破坏用户数据的恶意代码，但是由于本软件产品可以通过网络等途径下载、传播， 对于从非软件作者指定站点下载的本软件产品软件作者无法保证该软件是否感染计算机病毒、是否隐藏有伪装的特洛伊木马程序或者黑客软件，不承担由此引起的直接和间接损害责任。
+> 3.由于用户计算机软硬件环境的差异性和复杂性，本软件所提供的各项功能并不能保证在任何情况下都能正常执行或达到用户所期望的结果。 用户使用本软件所产生的一切后果，软件作者不承担任何责任。
+> 4.如果用户自行下载运行本软件，即表明用户信任软件作者，自愿选择安装本软件，并接受本协议所有条款。如果用户不接受本协议，请立即删除。
 
 * * *
 
-### Here is an unordered list:
+# 介绍
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+**AutoHPMA** 是一款为游戏 **《哈利波特：魔法觉醒》** 设计的辅助应用，主要功能为实现 **社团答题** 的自动化。
 
-### And an ordered list:
+* * *
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+# 使用说明
 
-### And a nested list:
+要使用 **AutoHPMA** ，请按照以下简单的安装步骤操作：
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+## 下载
 
-### Small image
+从该网站顶部 **Download** 或者 [Releases](https://github.com/YourGitHubUsername/AutoHPMA/releases) 页面下载最新版本的 **AutoHPMA**。
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+## 安装
 
-### Large image
+1. 在计算机上找到已下载的 `AutoHPMA.msi` 或 `AutoHPMA.exe` 文件。
+2. 双击 MSI 或 EXE 文件以开始安装过程。
+3. 按照屏幕上的说明完成安装。
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+## 启动
+
+- 安装完成后，从“开始”菜单或桌面快捷方式启动 AutoHPMA。
+- 根据您的偏好配置该应用程序，然后让 AutoHPMA 处理剩下的事情。
+
+* * *
+
+# 功能介绍
+
+## 启动页面
+
+![start](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/start.png)
+启动页面中可展开面板进行配置更改。按**启动**键即可启动脚本，遮罩窗口也可通过开关进行显示和隐藏的切换。
+配置信息如下：
+*   **触发器间隔**：截屏器的工作间隔，默认为500ms，可根据电脑性能更改，建议在100ms~1000ms之间。
+*   **启动方式**：设置游戏的启动方式，目前仅支持Mumu模拟器和官方启动器。
+*   **实时截屏**：开启后在截屏页面可以观看到实时截屏，以便于观察运行状况。
+同时，在遮罩面板的配置中，可以调整遮罩窗口的偏移量，以避免遮挡游戏内容。
+
+## 截屏页面
+
+![screenshot](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/screenshot.png)
+截屏页面中显示实时的截屏画面。可在启动页面进行功能的开启或关闭。
+
+## 测试页面
+
+![test](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/test.png)
+测试页面中首先需要选择启动方式。然后进行各种测试。
+功能介绍如下：
+*   **截屏测试**：通过设置偏移和宽高，截取指定区域的游戏画面。同时支持读入配置文件以快速截取目标区域图像。
+*   **图像比对**：将当前游戏指定区域和相应的目标进行比对，计算相似度并显示于遮罩窗口上。区域位置大小定义在应用目录 _/Config/*config.json_ 中。目标图像在 _/Assets/Captures_ 中，对应的具体参数将在下面给出。
+*   **模拟点击**：设置坐标、间隔、次数后，可进行模拟点击。
+测试中相应功能与配置对应如下：
+|                   | 集结                    | 提示                 | 时间                     |
+|:------------------|:------------------------|:---------------------|:------------------------|
+| **配置文件变量名** | "gather_pic"            |  "tip_pic"           |  "time0_pic"            |
+| **目标图像文件名** | _/Capture/*/gather.png_ | _/Capture/*/tip.png_ | _/Capture/*/Time/*.png_ |
+| **截取保存文件名** | "[Test]gather.png"      | "[Test]tip.png"      | "[Test]time.png"        |
+
+* * *
+
+# 注意事项
+
+1.  **AutoHPMA**目前仅支持**2560*1600**分辨率下**全屏窗口化**的**Mumu模拟器**，或任意分辨率下**1680*1050**分辨率的**官方启动器**，其他分辨率和启动方式暂不支持。
+2.  通过**Mumu模拟器**执行时，为保证后台运行的稳定，请勿点击游戏的**最小化窗口**按钮或者电脑屏幕右下角的**显示桌面**按钮，否则可能会导致游戏窗口置顶显示。但正常的窗口遮挡不会影响后台运行，通过其他窗口的置顶来遮挡游戏窗口是可行的。
+3.  由于**官方启动器**的限制，用其进行游戏时，无法实现后台点击功能，需要保持游戏窗口的置顶并防止其他窗口干扰。
+
+# 运行效果展示
+
+~~仍在加工中，敬请期待~~
 
 
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
