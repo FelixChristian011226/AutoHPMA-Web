@@ -44,7 +44,9 @@ layout: default
 
 [//]: ![start](https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/start.jpg)
 
-![start.jpg](https://imgos.cn/2024/08/16/66be33f4288a0.jpg)
+<img src = "https://github.com/FelixChristian011226/AutoHPMA-Web/blob/master/imgs/start.jpg" align = "middle"  width="60%" />
+
+[//]:![start.jpg](https://imgos.cn/2024/08/16/66be33f4288a0.jpg)
 启动页面中可展开面板进行配置更改。按**启动**键即可启动脚本，遮罩窗口也可通过开关进行显示和隐藏的切换。
 配置信息如下：
 *   **触发器间隔**：截屏器的工作间隔，默认为500ms，可根据电脑性能更改，建议在100ms~1000ms之间。
